@@ -49,12 +49,12 @@ You can try to change some settings by entering `nitro iniset` and changing them
 - `opcache_revalidate_freq: 0`
 - `opcache_validate_timestamps: 0`
 
-Read more about this options [here](https://www.php.net/manual/en/opcache.configuration.php).
+Read more about those options [here](https://www.php.net/manual/en/opcache.configuration.php).
 
 
 ### Disable Xdebug
 
-If you are not using [Xdebug](https://xdebug.org/) you can disable it issuing the following command:
+If you are not using [Xdebug](https://xdebug.org/) you can disable it by issuing the following command:
 
 ```sh
 nitro xoff
