@@ -6,7 +6,7 @@ Tips which can help to speed up Craft CMS development. I experienced loading tim
     + [Disable debug toolbar](#disable-debug-toolbar)
     + [Increase resources for Docker](#increase-resources-for-docker)
     + [Disable additional loaded resources](#disable-additional-loaded-resources)
-    + [Disable que](#disable-que)
+    + [Disable queue](#disable-queue)
     + [Disable dev mode](#disable-dev-mode)
     + [Adjust Craft Nitro settings](#adjust-craft-nitro-settings)
     + [Disable Xdebug](#disable-xdebug)
@@ -33,9 +33,9 @@ Depending on the size of your application Docker might hit the resource limits, 
 
 If you make use of some third-party scripts and you don't actually need them, try to disable or remove them. For example, if you use a service like [Usersnap](https://usersnap.com/) try to disable it locally and see if it improves performance (for Usersnap search for `usersnap` to find the included script and remove it).
 
-### Disable que
+### Disable queue
 
-Your website might be slowed down during development, because of tasks in the que that are being executed. To disable it set `'runQueueAutomatically' => false` in your `general.php` file for the dev environment. Notice that disabling the que can make your website stop working properly, because potential necessary tasks are not being executed anymore. Also plugins often put some tasks into the que even if you don't create your own tasks. Keep this in mind if something is not working as expected, that it might be because of the disabled que.
+Your website might be slowed down during development, because of tasks in the queue that are being executed. To disable it set `'runQueueAutomatically' => false` in your `general.php` file for the dev environment. Notice that disabling the queue can make your website stop working properly, because potential necessary tasks are not being executed anymore. Also plugins often put some tasks into the queue even if you don't create your own tasks. Keep this in mind if something is not working as expected, that it might be because of the disabled queue.
 
 ### Disable dev mode
 
