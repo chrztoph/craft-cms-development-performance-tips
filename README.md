@@ -47,7 +47,7 @@ You can try to change some settings by entering `nitro iniset` and changing them
 
 - `opcache_enable: true`
 - `opcache_revalidate_freq: 0`
-- `opcache_validate_timestamps: 0`
+- `opcache_validate_timestamps: 1`
 
 Read more about those options [here](https://www.php.net/manual/en/opcache.configuration.php).
 
