@@ -1,6 +1,6 @@
 # Craft CMS development performance tips
 
-Tips which can help to speed up Craft CMS development. I experienced loading times of **30s** and got it down to about **2s** with the tips liste below.
+Tips which can help to speed up Craft CMS development. I experienced loading times of **30s** and got it down to about **2s** with the tips listed below.
 
 * [Performance tips](#performance-tips)
     + [Disable debug toolbar](#disable-debug-toolbar)
